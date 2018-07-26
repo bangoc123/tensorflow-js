@@ -1,0 +1,33 @@
+{
+  "name": "handwritten-digit-recognition-canvas-draw",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "license": "Apache-2.0",
+  "private": true,
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.12.0",
+    "jsdom": "^11.11.0",
+    "vega-embed": "^3.2.0",
+    "vega-lite": "^2.3.1",
+    "xmldom": "^0.1.27"
+  },
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open",
+    "dev": "cross-env NODE_ENV=development parcel index.html",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url ./",
+    "postinstall": "yarn upgrade --pattern @tensorflow"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-runtime": "~6.23.0",
+    "babel-polyfill": "~6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "clang-format": "~1.2.2",
+    "cross-env": "^5.1.6",
+    "parcel-bundler": "~1.8.1"
+  }
+}

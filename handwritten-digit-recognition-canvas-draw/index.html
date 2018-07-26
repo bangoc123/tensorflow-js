@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./fabric.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+        <style>
+            canvas {
+                border: 1px solid #ffa700;
+            }
+
+            .number {
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                margin-right: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #ffa700;
+                margin-top: 5px;
+            }
+
+            .numbers {
+                display: flex;
+                flex-direction: column;
+                overflow: scroll;
+                padding-left: 30px;
+            }
+
+            .predictions {
+                display: flex;
+                flex-direction: row;
+                margin-top: 100px;
+                margin-left: 10px;
+            }
+
+            .actions {
+                margin-top: 20px;
+            }
+
+            #train-btn {
+                margin-left: 10px;
+            }
+
+            .progress {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class="predictions">
+            <div>
+                <canvas id="cv" width="280" height="280">
+                </canvas>
+                <div class="progress">
+                    <div id="progress" class="progress-bar w-20" style="width: 0%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="actions">
+                    <button id="clear-btn" class="btn btn-primary">Clear</button>
+                    <button id="train-btn" class="btn btn-primary">Train</button>
+                </div>
+                
+            </div>
+            <div class="numbers">
+                <div class="number" id="0">0</div> 
+                <div class="number" id="1">1</div>
+                <div class="number" id="2">2</div>
+                <div class="number" id="3">3</div>
+                <div class="number" id="4">4</div>
+                <div class="number" id="5">5</div>
+                <div class="number" id="6">6</div>
+                <div class="number" id="7">7</div>
+                <div class="number" id="8">8</div>
+                <div class="number" id="9">9</div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./train.js"></script>
+    <script>
+    </script>
+    </body>
+</html>
