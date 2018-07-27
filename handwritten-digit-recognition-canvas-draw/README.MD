@@ -2,8 +2,8 @@
 
 | Resource | Link |
 | ------ | ------ |
-| Slide at Google I/O Extended | [Machine learning on Browser and TensorFlow for JavaScript](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md) |
-| Features | [MNIST Data Features]("https://storage.googleapis.com/learnjs-data/model-builder/mnist_images.png) |
+| Slide at Google I/O Extended | [Machine learning on Browser and TensorFlow for JavaScript](https://docs.google.com/presentation/d/1WWomgHjCABmpkGciO7gRjshj835A_AQt-8hOhFYXsfM/edit?usp=sharing) |
+| Features | [MNIST Data Features](https://storage.googleapis.com/learnjs-data/model-builder/mnist_images.png) |
 | Labels | [MNIST Data Labels](https://storage.googleapis.com/learnjs-data/model-builder/mnist_labels_uint8) |
 
 
