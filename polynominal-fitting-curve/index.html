@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-teal.min.css" />
+
+        <style>
+            .plots {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            #trained, #data {
+                margin: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Polynominal Fitting Curve</h3>
+        <button class="async_button">Test async</button>
+        <button class="train">Train</button>
+        <div class="plots">
+            <div id="data">
+                <div class="caption">Original Data</div>
+                <div class="caption">
+                    True coefficients: 
+                    <span class="coeff">
+                        
+                    </span>
+                </div>
+                <div class="plot"></div>
+            </div>
+
+            <div id="trained">
+                <div class="caption">Training</div>
+                <div class="caption">
+                    Learned coefficients:
+                    <span class="coeff">
+                        
+                    </span>
+                </div>
+                <div class="plot"></div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+        <script>
+            let button = document.getElementsByClassName('async_button')[0];
+            console.log(button);
+            button.addEventListener('click', () => {
+                alert('Working...');
+            })
+        </script>
+    </body>
+</html>
