@@ -7,6 +7,7 @@ This year, I am a speaker at Google I/O Extended Hanoi 2018 and my topic is Mach
 | Resource | Link |
 | ------ | ------ |
 | Slide at Google I/O Extended | [Machine learning on Browser and TensorFlow for JavaScript](https://docs.google.com/presentation/d/1ZVO6Ripu0JL6d-aFTsUuDdlfJVKbBZC3xVupGrl_P3k/edit?usp=sharing) |
+| LiveStream at Google I/O Extended | [LiveStream at Google I/O Extended](https://www.youtube.com/watch?v=JWn2vESsRcY) |
 
 #### 1. Polynomial Fitting Curve 
 ----
